@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles-form.css">
+    <title>Solicitar cotizacion</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="#default" class="logo">Nikos Auto</a>
+        <div class="header-right">
+            <a class="active" href="">Nueva solicitud</a>
+            <a href="#Historial">Contact</a>
+            <a href="#about">About</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="title">
+            <h2>Cotizacion</h2>
+        </div>
+        <div class="d-flex">
+            <form action="" method="">
+                <label>
+                    <span class="fname">Nombre<span class="required">*</span></span>
+                    <input type="text" name="fname">
+                </label>
+                <label>
+                    <span class="lname">Apellido<span class="required">*</span></span>
+                    <input type="text" name="lname">
+                </label>
+                <label>
+                    <span>Nombre de compañia (opcional)</span>
+                    <input type="text" name="cn">
+                </label>
+                <label>
+                    <span>Provincia <span class="required">*</span></span>
+                    <select name="selection">
+                        <option value="select">Seleccionar provincia...</option>
+                        <option>Panama</option>
+                        <option>Colon</option>
+                        <option>Chiriqui</option>
+                        <option>Bocas del toro</option>
+                        <option>Veraguas</option>
+                        <option>Chorrera</option>
+                        <option>Cocle</option>
+                        <option>Darien</option>
+                        <option>Los santos</option>
+                        <option> Herrrera</option>
+                    </select>
+                </label>
+                
+                <label>
+                    <span>Direccion<span class="required">*</span></span>
+                    <input type="text" name="houseadd" placeholder="House number and street name" required>
+                </label>
+                <label>
+                    <span>&nbsp;</span>
+                    <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+                </label>
+
+
+                <label>
+                    <span>Tipo de servicio <span class="required">*</span></span>
+                    <select name="selection">
+                        <option value="select">Seleccionar servicio...</option>
+                        <option>ABC Motor</option>
+                        <option>ABC Frenos</option>
+                        <option>Cambio de aceite</option>
+                        <option>Cambio de bujias</option>
+                        <option>Limpieza de inyectores</option>
+                        <option>Cambio de kit de embrague</option>
+                        <option>Cambio de kit de distribucion</option>
+                        <option>Diagnostico computarizado</option>
+                        <option>Reparacion de motores</option>
+                        <option>Combio de pieza especifica.</option>
+                    </select>
+                </label>
+
+                <label>
+                    <span>Descripcion (detallar servicio)<span class="required">*</span></span>
+                    <input type="text" name="city">
+                </label>
+
+                <label>
+                    <span>Contacto <span class="required">*</span></span>
+                    <input type="tel" name="city">
+                </label>
+                <label>
+                    <span>Email<span class="required">*</span></span>
+                    <input type="email" name="city">
+                </label>
+
+                <button type="button">Cotizar</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
